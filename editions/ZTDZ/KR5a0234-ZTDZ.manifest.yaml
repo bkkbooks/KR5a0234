@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0234/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0234/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 還丹眾仙論
+  date: '2015-08-28 23:42:45.114085'
+  source:
+    repository: kanripo
+    path: KR5a0234
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0234_000-ZTDZ.yaml, hash: 'sha256:2c750f3d73f245b8708f6200e453adf7c1cd3bed93e9a822bce0f412c0531139'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0234_000-ZTDZ.markers.yaml, hash: 'sha256:afd6f42cb026cdf358573199865d5514c3f373f1539dca348550c95e3657fdf5'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0234_SJB_000-040333c
+    span:
+    - body
+    - 0
+    - 7113
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:e0ec120e94952e2234b88534af42f6790103465336d9fe5752b6413b27d925ec
